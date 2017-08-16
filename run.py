@@ -15,7 +15,6 @@ class Main(QMainWindow):
         self.move(QApplication.desktop().screen().rect().center()- self.rect().center())
         self.setFixedSize(540, 43)
         self.vertical = QVBoxLayout()
-        self.horizontal = QHBoxLayout()
 #Text field
         self.address=QLineEdit()
         self.address.setStyleSheet("QLineEdit{color:#ffffff; background-color:#2a2a2a; border: 2px solid #353535; border-radius: 3px;font-size: 12px;}"
