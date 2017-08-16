@@ -3,7 +3,7 @@ Runner-QT is a program launcher dialog for Linux/Unix.
 
 ![run3](https://user-images.githubusercontent.com/29865797/29373412-d973584c-82b6-11e7-8cd0-da8f58903d4a.jpg)
 
-Runner-QT v.3 has 54 lines of code. The program has a new outlook via CSS, which brings colours  and element highlighting. 
+Runner-QT v.3 has 53 lines of code. The program has a new outlook via CSS, which brings colours  and element highlighting. 
 
 #Runner-QT v.3 Copyright (c) 2017 JJ Posti <techtimejourney.net>
 This program comes with ABSOLUTELY NO WARRANTY;
