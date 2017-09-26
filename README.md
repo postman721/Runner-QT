@@ -3,12 +3,15 @@ Runner-QT is a program launcher dialog for Linux/Unix.
 
 ![run3](https://user-images.githubusercontent.com/29865797/29373412-d973584c-82b6-11e7-8cd0-da8f58903d4a.jpg)
 
-Runner-QT v.3 has 49 lines of code. The program has a new outlook via CSS, which brings colours  and element highlighting. 
+Runner-QT v.4 has 57 lines of code. The program has a new outlook via CSS, which brings colours  and element highlighting. 
 
-#Runner-QT v.3 Copyright (c) 2017 JJ Posti <techtimejourney.net>
+#Runner-QT v.4 Copyright (c) 2017 JJ Posti <techtimejourney.net>
 This program comes with ABSOLUTELY NO WARRANTY;
 for details see: http://www.gnu.org/copyleft/gpl.html.
 This is free software, and you are welcome to redistribute it under GPL Version 2, June 1991″)
+
+Changes in v.4:
+When Runner-QT exits(from v.4 onwards) it prints an error to the cli if a program it tried to execute did not exist. Runner-QT v.4 quits with an ESC key - automatic exit functionality remains as a feature.
 
 Dependencies:
 
