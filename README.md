@@ -1,6 +1,7 @@
 
 #### Runner-QT is a simple Python application that presents a graphical user interface to execute commands or launch applications on a Linux system. The program is built using the PyQt5 framework and provides a minimalistic, modern interface for entering commands or application names.
 
+![runner_normal](https://github.com/postman721/Runner-QT/assets/29865797/430f3e8f-61aa-4ce2-85c2-7d3f087a08a2)
 
 Features
 
@@ -10,6 +11,10 @@ Features
     Modern and stylish look.
     Can be easily closed using the Escape key with traditional way of pressing the close button.
     Automatically closes if a program is found and executed by the system.
+
+Error handling in action:
+
+![runner_error](https://github.com/postman721/Runner-QT/assets/29865797/410efdf0-5c73-4051-b677-6b8906006311)
 
 Dependencies
 
