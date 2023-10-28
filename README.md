@@ -1,32 +1,44 @@
-# Runner-QT
-Runner-QT is a program launcher dialog for Linux/Unix.
 
-![screen](https://user-images.githubusercontent.com/29865797/89737715-dbb31280-da7b-11ea-80d0-9548fc5d8a64.jpg)
+#### Runner-QT is a simple Python application that presents a graphical user interface to execute commands or launch applications on a Linux system. The program is built using the PyQt5 framework and provides a minimalistic, modern interface for entering commands or application names.
 
-Runner-QT v.7 has 40 lines of code. The program has a new outlook via CSS, which brings colours  and element highlighting. 
 
-#Runner-QT v.4 Copyright (c) 2017 JJ Posti <techtimejourney.net>
-This program comes with ABSOLUTELY NO WARRANTY;
-for details see: http://www.gnu.org/copyleft/gpl.html.
-This is free software, and you are welcome to redistribute it under GPL Version 2, June 1991″)
+Features
 
-Changes in v.4:
-When Runner-QT exits(from v.4 onwards) it prints an error to the cli if a program it tried to execute did not exist. Runner-QT v.4 quits with an ESC key - automatic exit functionality remains as a feature.
+    Simple and intuitive graphical user interface.
+    Checks for the existence of a program before trying to execute it.
+    Provides error messages to the user if a command fails or if the program doesn't exist.
+    Modern and stylish look.
+    Can be easily closed using the Escape key with traditional way of pressing the close button.
+    Automatically closes if a program is found and executed by the system.
 
-Dependencies:
+Dependencies
 
-sudo apt-get install python-pyqt5 python python3
+To use run.py, the following packages are required:
 
-Usage information:
+python3
+python3-pyqt5
 
-Runner-QT will try to execute every command you write – via Python´s subprocess.Popen. If the command does not exist on the system then the program just closes and you can restart it. If the command exists then the program or argument will get executed. Security note. Be careful about what you type since Runner-QT accepts shell arguments. Never write something like: rm -r this_path, unless you are absolutely certain what you are doing.
+For Debian-based distributions (like Ubuntu), you can install these dependencies using:
 
-Executing:
 
-Run the program: python /home/some_person/some_folder/something.py
+		sudo apt-get update
+		sudo apt-get install python3 python3-pyqt5
 
-If needed make the program executable with: chmod +x /home/some_person/some_folder/something.py
+Usage
 
-__________________________
-Original post is at:
-http://www.techtimejourney.net/runner-qt-v-3/
+    Ensure that the script has executable permissions:
+
+
+		chmod +x run.py
+
+Run the script:
+
+		./run.py
+OR
+
+		python3 run.py
+
+    Enter the command or application name in the presented text field and press Enter to execute.
+    If the entered command or application name is invalid or doesn't exist, an error message will be displayed.
+
+##### Runner-QT v.8 Copyright (c) 2017 JJ Posti <techtimejourney.net> This program comes with ABSOLUTELY NO WARRANTY;  for details see: http://www.gnu.org/copyleft/gpl.html.  This is free software, and you are welcome to redistribute it under  GPL Version 2, June 1991")
