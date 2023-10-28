@@ -1,7 +1,7 @@
 
 #### Runner-QT is a simple Python application that presents a graphical user interface to execute commands or launch applications on a Linux system. The program is built using the PyQt5 framework and provides a minimalistic, modern interface for entering commands or application names.
 
-Version 8 brings new outlook and error handling capablities - if the program is not found.
+Version 8 brings new outlook and error handling capabilities - if the program is not found.
 
 ![runner_normal](https://github.com/postman721/Runner-QT/assets/29865797/430f3e8f-61aa-4ce2-85c2-7d3f087a08a2)
 
