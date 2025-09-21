@@ -29,7 +29,13 @@ For Debian-based distributions (like Ubuntu), you can install these dependencies
 
 
 		sudo apt-get update
+
+For PyQt5: 
 		sudo apt-get install python3 python3-pyqt5
+  
+For PyQt6:
+		sudo apt-get install python3 python3-pyqt6
+
 
 Usage
 
