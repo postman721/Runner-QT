@@ -20,20 +20,17 @@ Error handling in action:
 
 Dependencies
 
-To use run.py, the following packages are required:
-
-python3
-python3-pyqt5
-
 For Debian-based distributions (like Ubuntu), you can install these dependencies using:
 
 
 		sudo apt-get update
 
-For PyQt5: 
+For PyQt5:   
+
 		sudo apt-get install python3 python3-pyqt5
   
-For PyQt6:
+For PyQt6:   
+
 		sudo apt-get install python3 python3-pyqt6
 
 
